@@ -1,7 +1,8 @@
 import { create } from "zustand";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/auth";
+// const API_URL = "http://localhost:3000/api/auth";
+const API_URL = "https://email-verification-backend-jggg.onrender.com/api/auth";
 axios.defaults.withCredentials = true;
 const useAuthStore = create((set) => ({
   user: null,
